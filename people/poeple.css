@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%!important
+}
+
+
+.pp-main {
+    height: auto!important;
+    min-height: 100%;
+}
+
+.pp-header {
+    height: 45px;
+    background-color: #4C5152;
+}
+
+.pp-content {
+    width: 992px;
+    height: auto!important;
+    min-height: 100%;
+    margin: auto;
+
+}
+
+.pp-title {
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 8px;
+}
+
+.ico {
+    background: url("./images/icons.f285c52f59b6.png") 0 0 no-repeat;
+    display: inline-block;
+}
+
+.ico-people {
+    background-position: -40px -138px;
+    width: 21px;
+    height: 16px;
+}
+
+.pp-title-text {
+    font: bold normal 16px sans-serif;
+    color: #5A5A5A;
+    display: inline-block;
+}
+
+.pp-list {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #BEBEBE;
+}
+
+.pp-list th, td {
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 27px;
+    width: 14%;
+}
+
+.pp-list-row td:first-child {
+    text-align: left;
+    width: 58%;
+}
+
+.pp-list-header {
+    font: normal normal 16px sans-serif;
+    width: 25%;
+    height: 29px;
+    background-color: #ecf0f3;
+    border-bottom: 1px solid #D7D8D9;
+}
+
+.pp-list-row {
+    vertical-align: top;
+    height: 62px;
+    border-bottom: 1px solid #d8d9da;
+}
+
+.pp-list-cell{
+    padding-left: 9px;
+}
+
+.pp-cell-avatar {
+    display: inline-block;
+}
+
+.pp-cell-avatar img {
+    border-radius: 2px;
+}
+
+
+.pp-cell-info{
+    display: inline-block;
+}
+
+
+.pp-cell-info a, .pp-number {
+    text-decoration: none;
+    font: bold normal 15px sans-serif;
+}
+
+.pp-cell-info a {
+    color: #2c76c7;
+}
+
+.pp-number {
+    color: #5a5a5a;
+    font-size: 17px;
+}
+
+
+.ico-rating {
+    background-position: 2px 2px;
+    width: 18px;
+    height: 17px;
+    vertical-align: -1px;
+}
+
+.follow-menu{
+    cursor: pointer;
+}
+
+.ico-follow {
+    background-position: -100px 2px;
+    width: 14px;
+    height: 17px;
+    vertical-align: -3px;
+}
+
+.ico-unfollow {
+    background-position: -40px 2px;
+    width: 14px;
+    height: 17px;
+    vertical-align: -3px;
+}
+
+.follow-button, .follow-tag-wrap, .unfollow-tag-wrap{
+    display: none;
+}
+
+.follow-tag{
+    color: #fff;
+    border-radius: 10px;
+    font: normal normal 11px sans-serif;
+    letter-spacing: .05em;
+    background-color: #a4c574;
+    padding: 2px 12px;
+
+}
+
+.green-tag {
+    background-color: #a4c574;
+}
+
+.red-tag {
+    background-color: #ff0000;
+}
+
+.more-button{
+    width: 173px;
+    border: 1px solid #BEBEBE;
+    border-top-style: dashed;
+    margin: -1px auto 77px ;
+    font: normal bold 15px sans-serif;
+    text-align: center;
+    padding: 6px 0;
+    vertical-align: middle;
+    background-color: #ffffff;
+
+
+}
+
+.pp-footer {
+    background-color: #4C5152;
+    height: 83px;
+}
